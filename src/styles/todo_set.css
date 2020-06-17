@@ -1,5 +1,9 @@
-.todo_ul {
+.todo_main {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+
+.list_set {
+    border: 1px solid black;
 }
