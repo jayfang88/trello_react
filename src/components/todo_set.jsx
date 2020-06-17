@@ -6,11 +6,11 @@ export class TodoSet extends React.Component {
         return(
             <div>
                 <ul className='todo_main'>
-                    <li className='list_set'><ListSet name={'Doing'}/></li>
-                    <li className='list_set'><ListSet name={'Done'} /></li>
-                    <li className='list_set'><ListSet name={'To Do'} /></li>
-                    <li className='list_set'><ListSet name={'Donezo'} /></li>
-                    <li className='list_set'><ListSet name={'Doodoo'} /></li>
+                    <li><ListSet name={'Doing'}/></li>
+                    <li><ListSet name={'Done'} /></li>
+                    <li><ListSet name={'To Do'} /></li>
+                    <li><ListSet name={'Donezo'} /></li>
+                    <li><ListSet name={'Doodoo'} /></li>
                 </ul>
             </div>
         )
