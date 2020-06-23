@@ -5,6 +5,7 @@ export class TodoSet extends React.Component {
     render() {
         return(
             <div>
+                <h1 className='title'>To Do List</h1>
                 <ul className='todo_main'>
                     <li><ListSet name={'Doing'}/></li>
                     <li><ListSet name={'Done'} /></li>
